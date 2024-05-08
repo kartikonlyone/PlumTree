@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import { FaPhoneAlt,FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <>
@@ -21,11 +22,22 @@ const Footer = () => {
               <Link>Faq</Link>
             </div>
             <div className='col-md-3'>
-              <h2>Address</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nesciunt eveniet in nam eos minima.</p>
+              <h2>CONTACT US</h2>
+              <p>2400 E.Kotella Ave., Suite <br /> 800,Anaheim, CA, 92806, <br /> United States.</p>
             </div>
             <div className='col-md-3'>
-              
+              <div className='contact_us '>
+              <FaPhoneAlt />
+              <p className='mx-2 m-0'>9632587458</p>
+              </div>
+              <div className='contact_us mt-3'>
+              <FaEnvelope />
+              <p className='mx-2 m-0'>care@doesoprtswear.com</p>
+              </div>
+            </div>
+            <hr  className='mt-4'/>
+            <div className='col-md-12 text-center'>
+              Copyright © 2018 DOE Sports Wear | MADE IN USA
             </div>
           </div>
         </div>      
