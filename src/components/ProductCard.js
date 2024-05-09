@@ -11,8 +11,11 @@ const ProductCard = () => {
           <div className='products_heading'>
             <h2>New Arrival</h2>
           </div>
+          
           {ProductsArray.map(product => (
+            
             <div key={product.id} className="col-md-3">
+            <Link style={{textDecoration:'none'}}>
               <div className='product_img'>
                 <img src={product.img} alt={product.name} />
               </div>
@@ -20,6 +23,8 @@ const ProductCard = () => {
                 <h6>{product.name}</h6>
                 <h6>{product.price}</h6>
               </div>
+              </Link>
+              
               <div className='ratings d-flex'>
               <FaStar style={{ color: '#6e618c' }}/>
               <FaStar style={{ color: '#6e618c' }}/>
