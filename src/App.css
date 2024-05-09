@@ -168,6 +168,10 @@
 .product_img{
   height: 350px;
 }
+.product_name h6{
+  color: #000;
+  text-decoration: none;
+}
 .cart_icon_products{
   padding: 7px;
   background-color: #6e618c; 
