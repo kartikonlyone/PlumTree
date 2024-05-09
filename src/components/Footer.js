@@ -26,6 +26,7 @@ const Footer = () => {
               <p>2400 E.Kotella Ave., Suite <br /> 800,Anaheim, CA, 92806, <br /> United States.</p>
             </div>
             <div className='col-md-3'>
+<<<<<<< HEAD
             <div className='contact_us '>
   <FaPhoneAlt />
   <p className='mx-2 m-0'><a href="tel:9632587458">9632587458</a></p>
@@ -34,6 +35,16 @@ const Footer = () => {
   <FaEnvelope />
   <p className='mx-2 m-0'><a href="mailto:care@doesoprtswear.com">care@doesoprtswear.com</a></p>
 </div>
+=======
+              <div className='contact_us '>
+                <FaPhoneAlt />
+                <p className='mx-2 m-0'><a href="tel:9632587458">9632587458</a></p>
+              </div>
+            <div className='contact_us mt-3'>
+                <FaEnvelope />
+                <p className='mx-2 m-0'><a href="mailto:care@doesoprtswear.com">care@doesoprtswear.com</a></p>
+            </div>
+>>>>>>> b452824c52a307d65e57047ab2842092c329a6e0
             </div>
             <hr  className='mt-4'/>
             <div className='col-md-12 text-center'>
