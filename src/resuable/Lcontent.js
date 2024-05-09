@@ -9,7 +9,7 @@ const Lcontent = ({ imageSrc, title, description }) => {
         <div className='item_large_content'> 
           <h2>{title}</h2>
           <p>{description}</p>
-          <Link className='shop_btn'>SHOP NOW</Link>
+          <Link className='shop_btn'>SHOP NOW</Link> 
         </div>
       </div>
     </div>

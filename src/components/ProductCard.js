@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 const ProductCard = () => {
   return (
-    <> 
+    <>  
       <div className='container'>
         <div className='row'>
           <div className='products_heading'>

@@ -1,6 +1,6 @@
 import image3 from '../Images/image-3.jpg'
 import image4 from '../Images/Untitled-6.jpg'
-
+ 
 const products = [
     {
         id:1,

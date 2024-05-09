@@ -2,7 +2,7 @@ import React from 'react'
 import image6 from '../Images/image-6.jpg'
 const Newsletter = () => {
   return (
-    <>
+    <> 
         <div className='newsletter'>
             <div className='container'>
                 <div className='news_wrap d-flex justify-content-between align-items-center'> 

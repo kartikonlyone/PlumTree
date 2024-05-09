@@ -6,7 +6,7 @@ import image5 from '../Images/image-5.jpg'
 
 const ProductsDisplay = () => {
   return (
-    <>
+    <> 
         <div className='products_card'>
         <div className='container'>
             <div className='row'>

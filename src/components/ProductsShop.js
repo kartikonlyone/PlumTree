@@ -9,7 +9,7 @@ const ProductsShop = () => {
     <>
     <div className='products_card'>
         <div className='container'>
-            <div className='row'>
+            <div className='row'> 
                 <Smcontent imageSrc={image2} title="UNISEX JACKETS" description="WINDPROOF & SHOWERPROOF "/>
                 <Lcontent imageSrc={image} title="RUNNING JACKETS" description="CONTRAST SIDE PANELING"/>
             </div>

@@ -4,7 +4,6 @@ import logo from '../Images/logo.png'
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaGoogle,FaSearch,FaShoppingCart,FaUser } from 'react-icons/fa';
 
-
 const Header = () => {
   return (
     <>

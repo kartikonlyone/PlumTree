@@ -8,7 +8,7 @@ const ItemSmall = ({ imageSrc, title, description }) => {
     <div className='item_small'>
       <img className="item_image" src={imageSrc} alt="Item Image" />
       <div className='item_small_content'> 
-        <h2>{title}</h2>
+        <h2>{title}</h2> 
         <p>{description}</p>
         <Link className='shop_btn'>SHOP NOW</Link>
       </div>
