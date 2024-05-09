@@ -27,13 +27,13 @@ const Footer = () => {
             </div>
             <div className='col-md-3'>
               <div className='contact_us '>
-              <FaPhoneAlt />
-              <p className='mx-2 m-0'>9632587458</p>
+                <FaPhoneAlt />
+                <p className='mx-2 m-0'><a href="tel:9632587458">9632587458</a></p>
               </div>
-              <div className='contact_us mt-3'>
-              <FaEnvelope />
-              <p className='mx-2 m-0'>care@doesoprtswear.com</p>
-              </div>
+            <div className='contact_us mt-3'>
+                <FaEnvelope />
+                <p className='mx-2 m-0'><a href="mailto:care@doesoprtswear.com">care@doesoprtswear.com</a></p>
+            </div>
             </div>
             <hr  className='mt-4'/>
             <div className='col-md-12 text-center'>
